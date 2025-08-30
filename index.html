@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karunesh Gupta - Cybersecurity & Network Intelligence Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="cyber-shield">⚡</div>
+                <span>CYBER_HUB</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#profile" class="nav-link">About</a></li>
+                <li><a href="#dashboard" class="nav-link">Dashboard</a></li>
+                <li><a href="#research" class="nav-link">Research</a></li>
+                <li><a href="#knowledge" class="nav-link">Knowledge</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="particles-bg"></div>
+        <div class="hero-content">
+            <div class="cyber-globe">
+                <div class="globe">
+                    <div class="globe-inner">
+                        <div class="network-node node-1"></div>
+                        <div class="network-node node-2"></div>
+                        <div class="network-node node-3"></div>
+                        <div class="network-node node-4"></div>
+                        <div class="network-line line-1"></div>
+                        <div class="network-line line-2"></div>
+                        <div class="network-line line-3"></div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="hero-title" id="hero-title">Cybersecurity & Network Intelligence Hub</h1>
+            <p class="hero-subtitle" id="hero-subtitle"></p>
+            <div class="hero-buttons">
+                <button class="neon-btn primary" onclick="scrollToSection('dashboard')">
+                    <span>Explore Cybersecurity</span>
+                </button>
+                <button class="neon-btn secondary" onclick="scrollToSection('dashboard')">
+                    <span>Real-Time Threat Map</span>
+                </button>
+                <button class="neon-btn tertiary" onclick="scrollToSection('profile')">
+                    <span>About Me</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section id="profile" class="profile-section">
+        <div class="container">
+            <h2 class="section-title glitch" data-text="PROFILE_DATA">PROFILE_DATA</h2>
+            <div class="profile-content">
+                <div class="profile-image-container">
+                    <div class="profile-image">
+                        <div class="profile-avatar">
+                             <img src="https://media.licdn.com/dms/image/v2/D4E03AQH9ZgXYwT8nLg/profile-displayphoto-scale_200_200/B4EZimUHi9HEAY-/0/1755136950248?e=2147483647&v=beta&t=mw-5jdryNtWMjb9s1W9pnOaMTltgxGUXhdJn5qAIy7E">
+                        </div>
+                        <div class="profile-ring"></div>
+                    </div>
+                </div>
+                <div class="profile-info">
+                    <h3 class="profile-name">Karunesh Gupta</h3>
+                    <p class="profile-title">Cybersecurity Specialist & B.Tech CS Student</p>
+                    <p class="profile-bio">Hi, I'm Karunesh Gupta, a B.Tech student in Computer Science with a passion for Cybersecurity, Networking, and Ethical Hacking.</p>
+                    <div class="profile-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Location:</span>
+                            <span class="detail-value">Koyala Nagar, Kanpur</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Email:</span>
+                            <span class="detail-value">karuneshgupta67@gmail.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Phone:</span>
+                            <span class="detail-value">+91-7607545587</span>
+                        </div>
+                    </div>
+                    <div class="skills-container">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-icon">🔐</span>
+                                <span class="skill-name">Cybersecurity</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-icon">🌐</span>
+                                <span class="skill-name">Networking</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-icon">💻</span>
+                                <span class="skill-name">Ethical Hacking</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-icon">⚛️</span>
+                                <span class="skill-name">Quantum Cryptography</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-links">
+                        <a href="https://www.linkedin.com/in/karunesh-gupta-507b242a9" target="_blank" class="profile-link linkedin">
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://www.credly.com/users/karunesh-gupta" target="_blank" class="profile-link credly">
+                            <span>Credly</span>
+                        </a>
+                        <a href="https://www.hackerrank.com/profile/karuneshgupta786" target="_blank" class="profile-link hackerrank">
+                            <span>HackerRank</span>
+                        </a>
+                        <a href="https://learn.microsoft.com/en-us/users/karuneshgupta3838/" target="_blank" class="profile-link microsoft">
+                            <span>Microsoft Learn</span>
+                        </a>
+                        <a href="https://sunilkirana.my.canva.site/karunesh-gupta" target="_blank" class="profile-link portfolio">
+                            <span>Portfolio</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cybersecurity Dashboard Section -->
+    <section id="dashboard" class="dashboard-section">
+        <div class="container">
+            <h2 class="section-title glitch" data-text="THREAT_ANALYSIS">THREAT_ANALYSIS</h2>
+            <div class="dashboard-grid">
+                <div class="threat-map-container">
+                    <h3 class="dashboard-subtitle">Real-Time Threat Map</h3>
+                    <div class="threat-map">
+                        <div class="world-map">
+                            <div class="threat-point threat-1"></div>
+                            <div class="threat-point threat-2"></div>
+                            <div class="threat-point threat-3"></div>
+                            <div class="threat-point threat-4"></div>
+                            <div class="threat-line threat-line-1"></div>
+                            <div class="threat-line threat-line-2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="network-monitor">
+                    <h3 class="dashboard-subtitle">Network Monitor</h3>
+                    <div class="monitor-stats">
+                        <div class="stat-item">
+                            <span class="stat-label">Global Attacks</span>
+                            <span class="stat-value" id="global-attacks">2,847,592</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Blocked Threats</span>
+                            <span class="stat-value" id="blocked-threats">1,923,847</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Active Connections</span>
+                            <span class="stat-value" id="active-connections">45,892</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Security Score</span>
+                            <span class="stat-value security-score">94%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="threat-alerts">
+                    <h3 class="dashboard-subtitle">Current Threats</h3>
+                    <div class="alerts-list">
+                        <div class="alert-item critical">
+                            <span class="alert-severity">CRITICAL</span>
+                            <span class="alert-text">AI-Powered Attacks (+150%)</span>
+                        </div>
+                        <div class="alert-item high">
+                            <span class="alert-severity">HIGH</span>
+                            <span class="alert-text">Ransomware Evolution (+85%)</span>
+                        </div>
+                        <div class="alert-item high">
+                            <span class="alert-severity">HIGH</span>
+                            <span class="alert-text">IoT Vulnerabilities (+120%)</span>
+                        </div>
+                        <div class="alert-item emerging">
+                            <span class="alert-severity">EMERGING</span>
+                            <span class="alert-text">Quantum Computing Threats (+200%)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-ticker-container">
+                    <h3 class="dashboard-subtitle">Security News</h3>
+                    <div class="news-ticker">
+                        <div class="ticker-content" id="ticker-content">
+                            <span>Major ransomware group dismantled by international law enforcement</span>
+                            <span>New AI-powered threat detection system reduces false positives by 90%</span>
+                            <span>Quantum-resistant encryption standards approved by NIST</span>
+                            <span>Critical vulnerability discovered in widely-used IoT devices</span>
+                            <span>Cybersecurity workforce shortage reaches 3.5 million globally</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="research-section">
+        <div class="container">
+            <h2 class="section-title glitch" data-text="RESEARCH_PROJECTS">RESEARCH_PROJECTS</h2>
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="card-content">
+                        <h3 class="card-title">Quantum Cryptography Research</h3>
+                        <p class="card-description">Exploring post-quantum cryptographic algorithms and their implementation in modern security systems.</p>
+                        <div class="card-progress">
+                            <span class="progress-label">Progress: 65%</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        <span class="card-status active">Active</span>
+                    </div>
+                </div>
+                <div class="research-card">
+                    <div class="card-content">
+                        <h3 class="card-title">AI in Cybersecurity</h3>
+                        <p class="card-description">Developing machine learning models for real-time threat detection and automated response systems.</p>
+                        <div class="card-progress">
+                            <span class="progress-label">Progress: 80%</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <span class="card-status progress">In Progress</span>
+                    </div>
+                </div>
+                <div class="research-card">
+                    <div class="card-content">
+                        <h3 class="card-title">Dark Web Monitoring</h3>
+                        <p class="card-description">Creating tools for monitoring and analyzing dark web activities for threat intelligence.</p>
+                        <div class="card-progress">
+                            <span class="progress-label">Progress: 45%</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 45%"></div>
+                            </div>
+                        </div>
+                        <span class="card-status research">Research Phase</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Knowledge Section -->
+    <section id="knowledge" class="knowledge-section">
+        <div class="container">
+            <h2 class="section-title glitch" data-text="KNOWLEDGE_BASE">KNOWLEDGE_BASE</h2>
+            <div class="knowledge-grid">
+                <article class="blog-card">
+                    <div class="blog-content">
+                        <span class="blog-category">Fundamentals</span>
+                        <h3 class="blog-title">Network Security Fundamentals</h3>
+                        <p class="blog-excerpt">Essential concepts every cybersecurity professional should master</p>
+                        <div class="blog-meta">
+                            <span class="read-time">8 min read</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-content">
+                        <span class="blog-category">Ethical Hacking</span>
+                        <h3 class="blog-title">Ethical Hacking Techniques</h3>
+                        <p class="blog-excerpt">Modern penetration testing methodologies and tools</p>
+                        <div class="blog-meta">
+                            <span class="read-time">12 min read</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-content">
+                        <span class="blog-category">Data Security</span>
+                        <h3 class="blog-title">Real-time Data Protection</h3>
+                        <p class="blog-excerpt">Implementing live monitoring and response systems</p>
+                        <div class="blog-meta">
+                            <span class="read-time">10 min read</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-content">
+                        <span class="blog-category">Quantum Computing</span>
+                        <h3 class="blog-title">Future of Quantum Security</h3>
+                        <p class="blog-excerpt">Preparing for the quantum computing revolution in cybersecurity</p>
+                        <div class="blog-meta">
+                            <span class="read-time">15 min read</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-content">
+                        <span class="blog-category">AI Security</span>
+                        <h3 class="blog-title">AI-Powered Cybersecurity</h3>
+                        <p class="blog-excerpt">Leveraging artificial intelligence for advanced threat detection</p>
+                        <div class="blog-meta">
+                            <span class="read-time">11 min read</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title glitch" data-text="CONTACT_PROTOCOL">CONTACT_PROTOCOL</h2>
+            <div class="contact-content">
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Name" required>
+                            <div class="input-glow"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="Email" required>
+                            <div class="input-glow"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Subject" required>
+                            <div class="input-glow"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-input" placeholder="Message" rows="5" required></textarea>
+                            <div class="input-glow"></div>
+                        </div>
+                        <button type="submit" class="neon-btn primary full-width">
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-details">
+                        <h3>Get In Touch</h3>
+                        <p>Ready to collaborate on cybersecurity projects or discuss the latest in network security? Let's connect!</p>
+                        <div class="detail-item">
+                            <span class="detail-label">Email:</span>
+                            <span class="detail-value">karuneshgupta67@gmail.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Phone:</span>
+                            <span class="detail-value">+91-7607545587</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Location:</span>
+                            <span class="detail-value">Koyala Nagar, Kanpur</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/karunesh-gupta-507b242a9" target="_blank" class="social-link linkedin">
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://www.credly.com/users/karunesh-gupta" target="_blank" class="social-link credly">
+                            <span>Credly</span>
+                        </a>
+                        <a href="https://www.hackerrank.com/profile/karuneshgupta786" target="_blank" class="social-link hackerrank">
+                            <span>HackerRank</span>
+                        </a>
+                        <a href="https://sunilkirana.my.canva.site/karunesh-gupta" target="_blank" class="social-link portfolio">
+                            <span>Portfolio</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="binary-rain" id="binary-rain"></div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
